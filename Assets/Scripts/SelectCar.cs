@@ -6,8 +6,6 @@ using YG;
 
 public class SelectCar : MonoBehaviour
 {
-    public static SelectCar Instance;
-
     private const string CarNo = "CarNo";
     private const string Select = "SELECT";
     private const string Buy = "BUY";
@@ -19,7 +17,7 @@ public class SelectCar : MonoBehaviour
     [SerializeField] private Button _prevBtn;
     [SerializeField] private Button _nextBtn;
     [SerializeField] private Button _useBtn;
-    [SerializeField] private GameObject _buyPanel;
+    [SerializeField] private BuyPanel _buyPanel;
 
     [SerializeField] private Button _buyCarBtn;
     [SerializeField] private TMP_Text _needMoreText;
@@ -41,9 +39,6 @@ public class SelectCar : MonoBehaviour
 
     private void Awake()
     {
-        if (Instance == null)
-            Instance = this;
-
         ChangeCar(0);
     }
 
@@ -84,7 +79,7 @@ public class SelectCar : MonoBehaviour
         }
         else
         {
-            _buyPanel.SetActive(true);
+            _buyPanel.gameObject.SetActive(true);
 
             _haveStarText.text = _haveStars.ToString();
             _haveDiamondText.text = _haveDiamonds.ToString();
@@ -109,7 +104,7 @@ public class SelectCar : MonoBehaviour
 
     public void ClosePanel()
     {
-        _buyPanel?.SetActive(false);
+        _buyPanel?.gameObject.SetActive(false);
         UnlockButtonsOnPanel(true);
     }
 
@@ -146,7 +141,7 @@ public class SelectCar : MonoBehaviour
 
     private void SetText()
     {
-        _buyPanel.SetActive(true);
+        _buyPanel.gameObject.SetActive(true);
 
         _haveStarText.text = _haveStars.ToString();
         _haveDiamondText.text = _haveDiamonds.ToString();

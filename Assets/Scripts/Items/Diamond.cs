@@ -6,7 +6,7 @@ public class Diamond : Item
 
     protected override void Blast()
     {
-        GameManager.Instance.GetDiamond();
+        GameManager.Instance.RaiseDiamond();
         Instantiate(_diamondBlast, transform.position, Quaternion.identity);
         base.Blast();
     }

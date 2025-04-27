@@ -69,19 +69,9 @@ public class GameManager : MonoBehaviour
             PlayerPrefs.SetInt(OldScore, 0);
         }
 
-        _totalDiamond = PlayerPrefs.GetInt(TotalDiamond);
-        _diamondText.text = _totalDiamond.ToString();
-
-        _totalStar = PlayerPrefs.GetInt(TotalStar);
-        _starText.text = _totalStar.ToString();
-
-        _bestScore = PlayerPrefs.GetInt(BestScore);
-        _bestText.text = _bestScore.ToString();
-
-        //ViewText(_totalDiamond, TotalDiamond, _diamondText);
-        //ViewText(_totalStar, TotalStar, _starText);
-        //ViewText(_bestScore, BestScore, _bestText);
-
+        ViewText(ref _totalDiamond, TotalDiamond, _diamondText);
+        ViewText(ref _totalStar, TotalStar, _starText);
+        ViewText(ref _bestScore, BestScore, _bestText);
         _scoreText.text = _score.ToString();
     }
 
@@ -90,6 +80,11 @@ public class GameManager : MonoBehaviour
         if (_isGameStarted == false)
             if (Input.GetMouseButtonDown(0))
                 GameStart();
+    }
+
+    public void OpenSelectCarPanel()
+    {
+        SceneManager.LoadScene(1);
     }
 
     public Player GetPlayer() =>
@@ -126,27 +121,21 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(0);
     }
 
-    public void GetStar()
+    public void RaiseStar()
     {
-        //UpdateItem(_totalStar, TotalStar, _starText);
-        int newItem = _totalStar++;
-        PlayerPrefs.SetInt(TotalStar, newItem);
-        _starText.text = _totalStar.ToString();
+        UpdateItem(ref _totalStar, TotalStar, _starText);
     }
 
-    public void GetDiamond()
+    public void RaiseDiamond()
     {
-        //UpdateItem(_totalDiamond, TotalDiamond, _diamondText);
-        int newItem = _totalDiamond++;
-        PlayerPrefs.SetInt(TotalDiamond, newItem);
-        _diamondText.text = _totalDiamond.ToString();
+        UpdateItem(ref _totalDiamond, TotalDiamond, _diamondText);
     }
 
-    private void UpdateItem(int count, string item, TMP_Text textItem)
+    private void UpdateItem(ref int count, string item, TMP_Text textItem)
     {
         int newItem = count++;
         PlayerPrefs.SetInt(item, newItem);
-        textItem.text = count.ToString();
+        textItem.text = newItem.ToString();
     }
 
     private void GameStart()
@@ -175,7 +164,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    private void ViewText(int count, string item, TMP_Text textItem)
+    private void ViewText(ref int count, string item, TMP_Text textItem)
     {
         count = PlayerPrefs.GetInt(item);
         textItem.text = count.ToString();

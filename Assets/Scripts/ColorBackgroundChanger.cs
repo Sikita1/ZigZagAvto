@@ -4,6 +4,7 @@ public class ColorBackgroundChanger : MonoBehaviour
 {
     [SerializeField][Range(0f, 1f)] private float _lerpTime;
     [SerializeField] private Color[] _myColor;
+
     private int _colorIndex;
     private float _change = 0f;
     private int _len;

@@ -6,7 +6,7 @@ public class Star : Item
 
     protected override void Blast()
     {
-        GameManager.Instance.GetStar();
+        GameManager.Instance.RaiseStar();
         Instantiate( _starBlast, transform.position, Quaternion.identity);
         base.Blast();
     }
