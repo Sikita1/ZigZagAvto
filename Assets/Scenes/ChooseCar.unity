@@ -179,10 +179,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 100 stars for 1 video
+  m_text: "100 \u0437\u0432\u0451\u0437\u0434 \u0437\u0430 1 \u0432\u0438\u0434\u0435\u043E"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f1cf3d54ae95f6458ec015c02d1cbd2, type: 2}
+  m_sharedMaterial: {fileID: -3040573754418331029, guid: 8f1cf3d54ae95f6458ec015c02d1cbd2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -206,7 +206,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 27.1
+  m_fontSize: 26.4
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -511,12 +511,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Buy Stars
-
-'
+  m_text: "\u041E\u0431\u043C\u0435\u043D\u044F\u0442\u044C \u0437\u0432\u0451\u0437\u0434\u044B"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f1cf3d54ae95f6458ec015c02d1cbd2, type: 2}
+  m_sharedMaterial: {fileID: -3040573754418331029, guid: 8f1cf3d54ae95f6458ec015c02d1cbd2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -540,7 +538,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 43.1
+  m_fontSize: 27.05
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -793,10 +791,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 10 stars for 1 diamond
+  m_text: "10 \u0437\u0432\u0451\u0437\u0434 \u0437\u0430 1 \u0431\u0440\u0438\u043B\u0438\u0430\u043D\u0442"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f1cf3d54ae95f6458ec015c02d1cbd2, type: 2}
+  m_sharedMaterial: {fileID: -3040573754418331029, guid: 8f1cf3d54ae95f6458ec015c02d1cbd2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -820,7 +818,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24.65
+  m_fontSize: 26.4
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -936,7 +934,7 @@ MonoBehaviour:
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
-    m_FadeDuration: 8.47
+    m_FadeDuration: 0.1
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
     m_PressedSprite: {fileID: 0}
@@ -1085,10 +1083,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: USE
+  m_text: "\u0412\u0417\u042F\u0422\u042C"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f1cf3d54ae95f6458ec015c02d1cbd2, type: 2}
+  m_sharedMaterial: {fileID: -3040573754418331029, guid: 8f1cf3d54ae95f6458ec015c02d1cbd2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1112,7 +1110,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 66.95
+  m_fontSize: 60.8
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1447,10 +1445,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: BUY THIS CAR
+  m_text: "\u041A\u0423\u041F\u0418\u0422\u042C \u042D\u0422\u041E\u0422 \u0410\u0412\u0422\u041E\u041C\u041E\u0411\u0418\u041B\u042C"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f1cf3d54ae95f6458ec015c02d1cbd2, type: 2}
+  m_sharedMaterial: {fileID: -3040573754418331029, guid: 8f1cf3d54ae95f6458ec015c02d1cbd2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1474,7 +1472,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 55
+  m_fontSize: 35.35
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1607,10 +1605,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: You Have
+  m_text: "\u0412\u0430\u0448\u0438 \u043D\u0430\u0433\u0440\u0430\u0434\u044B"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f1cf3d54ae95f6458ec015c02d1cbd2, type: 2}
+  m_sharedMaterial: {fileID: -3040573754418331029, guid: 8f1cf3d54ae95f6458ec015c02d1cbd2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1634,7 +1632,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 73.15
+  m_fontSize: 66.4
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1840,10 +1838,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 2096839599}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.7361851, y: 0.1488125}
-  m_AnchorMax: {x: 0.92025924, y: 0.25566673}
-  m_AnchoredPosition: {x: -1, y: 150}
-  m_SizeDelta: {x: 1, y: -5}
+  m_AnchorMin: {x: 0.7361851, y: 0.22652085}
+  m_AnchorMax: {x: 0.92200005, y: 0.33100003}
+  m_AnchoredPosition: {x: -1, y: 0}
+  m_SizeDelta: {x: -1, y: 0}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &993739769
 MonoBehaviour:
@@ -1872,7 +1870,7 @@ MonoBehaviour:
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
-    m_FadeDuration: 8.47
+    m_FadeDuration: 0.1
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
     m_PressedSprite: {fileID: 0}
@@ -2177,10 +2175,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: BUY FOR 700 STAR
+  m_text: "\u041A\u0423\u041F\u0418\u0422\u042C \u041C\u0410\u0428\u0418\u041D\u0423
+    \u0417\u0410 700 \u0417\u0412\u0401\u0417\u0414"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f1cf3d54ae95f6458ec015c02d1cbd2, type: 2}
+  m_sharedMaterial: {fileID: -3040573754418331029, guid: 8f1cf3d54ae95f6458ec015c02d1cbd2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2204,7 +2203,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 21.75
+  m_fontSize: 19.25
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2589,10 +2588,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: You Have
+  m_text: "\u0411\u0440\u0438\u043B\u0438\u0430\u043D\u0442\u044B"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f1cf3d54ae95f6458ec015c02d1cbd2, type: 2}
+  m_sharedMaterial: {fileID: -3040573754418331029, guid: 8f1cf3d54ae95f6458ec015c02d1cbd2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2616,7 +2615,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 44.4
+  m_fontSize: 42.65
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2741,12 +2740,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Earn Stars
-
-'
+  m_text: "\u041F\u043E\u043B\u0443\u0447\u0438\u0442\u044C \u0437\u0432\u0451\u0437\u0434\u044B"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f1cf3d54ae95f6458ec015c02d1cbd2, type: 2}
+  m_sharedMaterial: {fileID: -3040573754418331029, guid: 8f1cf3d54ae95f6458ec015c02d1cbd2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2770,7 +2767,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 26.15
+  m_fontSize: 20.4
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2878,6 +2875,7 @@ MonoBehaviour:
   _buyCarBtn: {fileID: 697828249}
   _needMoreText: {fileID: 1928352693}
   _closeBtnPanel: {fileID: 220276988}
+  _buyCarBtnStars: {fileID: 1205146218}
   _haveStarText: {fileID: 1906322785}
   _haveDiamondText: {fileID: 1445579791}
   _buyStarDimondBtn: {fileID: 1412636950}
@@ -3073,10 +3071,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: You Have
+  m_text: "\u0417\u0432\u0451\u0437\u0434\u044B"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f1cf3d54ae95f6458ec015c02d1cbd2, type: 2}
+  m_sharedMaterial: {fileID: -3040573754418331029, guid: 8f1cf3d54ae95f6458ec015c02d1cbd2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3100,7 +3098,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 45.05
+  m_fontSize: 42.65
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -3207,12 +3205,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '500 more stars needed
-
-'
+  m_text: "500 \u0437\u0432\u0451\u0437\u0434 \u043D\u0435 \u0445\u0432\u0430\u0442\u0430\u0435\u0442\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f1cf3d54ae95f6458ec015c02d1cbd2, type: 2}
+  m_sharedMaterial: {fileID: -3040573754418331029, guid: 8f1cf3d54ae95f6458ec015c02d1cbd2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3236,7 +3232,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36.8
+  m_fontSize: 45.45
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -3540,8 +3536,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: X
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f1cf3d54ae95f6458ec015c02d1cbd2, type: 2}
+  m_sharedMaterial: {fileID: -3040573754418331029, guid: 8f1cf3d54ae95f6458ec015c02d1cbd2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3565,7 +3561,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 62.15
+  m_fontSize: 56.4
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -3746,6 +3742,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7584145741611494904}
   - component: {fileID: 1575633067}
+  - component: {fileID: 7584145741611494905}
   m_Layer: 0
   m_Name: Car3
   m_TagString: Untagged
@@ -3901,6 +3898,14 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: bcd97bcc728ec0348a2bdaee62d4c327, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: bcd97bcc728ec0348a2bdaee62d4c327, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: bcd97bcc728ec0348a2bdaee62d4c327, type: 3}
       propertyPath: m_Name
       value: Car-1
@@ -3974,6 +3979,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1562255828711384611}
   - component: {fileID: 894186969}
+  - component: {fileID: 2270258411614229311}
   m_Layer: 0
   m_Name: Car6
   m_TagString: Untagged
@@ -3981,6 +3987,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
+--- !u!114 &2270258411614229311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2270258411614229310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edd66f0d652b156479c603e035a909c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _price: 7000
 --- !u!1 &2672864515026282428
 GameObject:
   m_ObjectHideFlags: 0
@@ -3991,6 +4010,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3386637255249729816}
   - component: {fileID: 157035593}
+  - component: {fileID: 3386637255249729817}
   m_Layer: 0
   m_Name: Car2
   m_TagString: Untagged
@@ -4008,6 +4028,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1501478453374700630}
   - component: {fileID: 866921980}
+  - component: {fileID: 2686982420460566431}
   m_Layer: 0
   m_Name: Car7
   m_TagString: Untagged
@@ -4015,6 +4036,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
+--- !u!114 &2686982420460566431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2686982420460566430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edd66f0d652b156479c603e035a909c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _price: 10000
 --- !u!64 &2713007669285563462
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4047,6 +4081,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1056817301232520109}
   - component: {fileID: 119950008}
+  - component: {fileID: 2749458918040299026}
   m_Layer: 0
   m_Name: Car5
   m_TagString: Untagged
@@ -4054,6 +4089,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
+--- !u!114 &2749458918040299026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2749458918040299025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edd66f0d652b156479c603e035a909c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _price: 5000
 --- !u!1001 &2753721206364824859
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4134,6 +4182,19 @@ Transform:
   - {fileID: 965455755}
   m_Father: {fileID: 1754219870}
   m_LocalEulerAnglesHint: {x: 0, y: -150, z: 0}
+--- !u!114 &3386637255249729817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2672864515026282428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edd66f0d652b156479c603e035a909c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _price: 700
 --- !u!64 &3431645051229146275
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4166,6 +4227,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7777556525964686235}
   - component: {fileID: 1008385085}
+  - component: {fileID: 7777556525964686236}
   m_Layer: 0
   m_Name: Car1
   m_TagString: Untagged
@@ -4269,6 +4331,7 @@ GameObject:
   m_Component:
   - component: {fileID: 213099590488590323}
   - component: {fileID: 259745630}
+  - component: {fileID: 4849416384022277003}
   m_Layer: 0
   m_Name: Car4
   m_TagString: Untagged
@@ -4276,6 +4339,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
+--- !u!114 &4849416384022277003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4849416384022277002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edd66f0d652b156479c603e035a909c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _price: 3000
 --- !u!1001 &6150291421830955698
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4378,6 +4454,19 @@ Transform:
   - {fileID: 1124418142}
   m_Father: {fileID: 1754219870}
   m_LocalEulerAnglesHint: {x: 0, y: -150, z: 0}
+--- !u!114 &7584145741611494905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 864538882393001051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edd66f0d652b156479c603e035a909c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _price: 1200
 --- !u!64 &7606418648733736410
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4416,6 +4505,19 @@ Transform:
   - {fileID: 1539199494}
   m_Father: {fileID: 1754219870}
   m_LocalEulerAnglesHint: {x: 0, y: -150, z: 0}
+--- !u!114 &7777556525964686236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4695957160252524456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edd66f0d652b156479c603e035a909c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _price: 500
 --- !u!1001 &8344595105794637722
 PrefabInstance:
   m_ObjectHideFlags: 0
