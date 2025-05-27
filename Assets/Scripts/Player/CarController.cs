@@ -4,8 +4,9 @@ public class CarController : MonoBehaviour
 {
     [SerializeField] private float _speed;
 
+    [SerializeField] private ParticleSystem[] _particleSystems; 
+
     private bool _isFaceLeft;
-    private bool _isFirstTab;
 
     private float _rotationAngle = 90f;
 
@@ -29,7 +30,10 @@ public class CarController : MonoBehaviour
     private void CheckInput()
     {
         if (Input.GetMouseButtonDown(0))
+        {
             ChangeDirection();
+            StartSmoke();
+        }
     }
 
     private void ChangeDirection()
@@ -49,5 +53,13 @@ public class CarController : MonoBehaviour
     private void ChangeRotationAngle(float angle)
     {
         transform.rotation = Quaternion.Euler(0, angle, 0);
+    }
+
+    private void StartSmoke()
+    {
+        for (int i = 0; i < _particleSystems.Length; i++)
+            _particleSystems[i].Play();
+
+        Debug.Log("Смог");
     }
 }

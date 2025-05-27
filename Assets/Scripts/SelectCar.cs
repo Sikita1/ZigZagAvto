@@ -7,10 +7,7 @@ using YG;
 public class SelectCar : MonoBehaviour
 {
     private const string CarNo = "CarNo";
-    private const string Select = "ВЗЯТЬ";
-    private const string Buy = "КУПИТЬ";
     private const string SelectAvto = "SelectAvto";
-
     private const string TotalDiamond = "totalDiamond";
     private const string TotalStar = "totalStar";
 
@@ -31,6 +28,7 @@ public class SelectCar : MonoBehaviour
 
     private int _currentCar;
     private string _ownCarIndex;
+
     private Color _redColor = Color.red;
     private Color _greenColor = Color.green;
 
@@ -64,9 +62,9 @@ public class SelectCar : MonoBehaviour
         _ownCarIndex = CarNo + _currentCar;
 
         if (PlayerPrefs.GetInt(_ownCarIndex) == 1)
-            ChangeBuyButton(_greenColor, Select);
+            ChangeBuyButton(_greenColor);
         else
-            ChangeBuyButton(_redColor, Buy);
+            ChangeBuyButton(_redColor);
     }
 
     public void UseBtnClick()
@@ -159,10 +157,9 @@ public class SelectCar : MonoBehaviour
         _useBtn.interactable = value;
     }
 
-    private void ChangeBuyButton(Color color, string text)
+    private void ChangeBuyButton(Color color)
     {
         _useBtn.GetComponent<Image>().color = color;
-        _useBtn.GetComponentInChildren<TMP_Text>().text = text;
     }
 
     private void ChooseCar(int index)
