@@ -3,6 +3,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using YG;
+using System.Collections.Generic;
 
 public class SelectCar : MonoBehaviour
 {
@@ -26,6 +27,11 @@ public class SelectCar : MonoBehaviour
     [SerializeField] private TMP_Text _haveDiamondText;
     [SerializeField] private Button _buyStarDimondBtn;
 
+    [Header("Car Materials")]
+    [SerializeField] private Material _lockedCarMaterial;
+    private Dictionary<int, Material[]> _originalMaterials = new Dictionary<int, Material[]>();
+    private Renderer[] _allCarRenderers;
+
     private int _currentCar;
     private string _ownCarIndex;
 
@@ -35,7 +41,13 @@ public class SelectCar : MonoBehaviour
     private int _haveStars;
     private int _haveDiamonds;
 
-    private void Awake() => ChangeCar(0);
+    private void Awake()
+    {
+        SaveOriginalMaterial();
+
+        ChangeCar(0);
+    }
+
     private void Start()
     {
         _haveStars = PlayerPrefs.GetInt(TotalStar);
@@ -96,6 +108,7 @@ public class SelectCar : MonoBehaviour
         PlayerPrefs.SetInt(TotalStar, _haveStars);
         int currentMinOne = _currentCar - 1;
         ChangeCar(currentMinOne);
+        UpdateCarMaterials();
         ClosePanel();
     }
 
@@ -118,6 +131,20 @@ public class SelectCar : MonoBehaviour
             PlayerPrefs.SetInt(TotalStar, _haveStars);
             SetText();
         });
+    }
+
+    private void SaveOriginalMaterial()
+    {
+        _allCarRenderers = new Renderer[transform.childCount];
+
+        for (int i = 0; i < transform.childCount; i++)
+        {
+            Transform carParent = transform.GetChild(i);
+            _allCarRenderers[i] = carParent.GetComponentInChildren<Renderer>(true);
+
+            if (_allCarRenderers[i] != null)
+                _originalMaterials[i] = _allCarRenderers[i].materials;
+        }
     }
 
     private void SetText()
@@ -162,6 +189,33 @@ public class SelectCar : MonoBehaviour
         _useBtn.GetComponent<Image>().color = color;
     }
 
+    private void UpdateCarMaterials()
+    {
+        for (int i = 0; i < _allCarRenderers.Length; i++)
+        {
+            if (_allCarRenderers[i] == null)
+                continue;
+
+            string carNo = CarNo + i;
+            bool isUnlocked = PlayerPrefs.GetInt(carNo, i == 0 ? 1 : 0) == 1;
+
+            if (isUnlocked)
+            {
+                if (_originalMaterials.TryGetValue(i, out Material[] originalMats))
+                    _allCarRenderers[i].materials = originalMats;
+            }
+            else
+            {
+                Material[] lockedMaterials = new Material[_allCarRenderers[i].materials.Length];
+
+                for (int j = 0; j < lockedMaterials.Length; j++)
+                    lockedMaterials[j] = _lockedCarMaterial;
+
+                _allCarRenderers[i].materials = lockedMaterials;
+            }
+        }
+    }
+
     private void ChooseCar(int index)
     {
         for (int i = 0; i < transform.childCount; i++)
@@ -171,7 +225,14 @@ public class SelectCar : MonoBehaviour
             if (i == 0)
                 PlayerPrefs.SetInt(carNo, 1);
 
-            transform.GetChild(i).gameObject.SetActive(i == index);
+            Transform carParent = transform.GetChild(i);
+            bool isActive = i == index;
+            carParent.gameObject.SetActive(isActive);
+
+            UpdateCarMaterials();
+
+            _ownCarIndex = CarNo + index;
+            ChangeBuyButton(PlayerPrefs.GetInt(_ownCarIndex, index == 0 ? 1 : 0) == 1 ? _greenColor : _redColor);
         }
     }
 }

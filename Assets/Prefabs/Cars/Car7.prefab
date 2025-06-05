@@ -9772,7 +9772,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _speed: 8
-  _particleSystems: []
+  _particleSystems:
+  - {fileID: 3857618588737077736}
+  - {fileID: 7547416651384743761}
 --- !u!1001 &3784834357282365822
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9827,15 +9829,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 1f273cad24519b24ebcfa09ec662854d, type: 3}
       propertyPath: m_Name
-      value: Car-7
+      value: Car
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 1f273cad24519b24ebcfa09ec662854d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3733247198573091534}
   m_SourcePrefab: {fileID: 100100000, guid: 1f273cad24519b24ebcfa09ec662854d, type: 3}
 --- !u!4 &3678552176520529557 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1f273cad24519b24ebcfa09ec662854d, type: 3}
   m_PrefabInstance: {fileID: 3784834357282365822}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &4055217799391304751 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1f273cad24519b24ebcfa09ec662854d, type: 3}
+  m_PrefabInstance: {fileID: 3784834357282365822}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3733247198573091534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4055217799391304751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 827eaf29c0161e34597cf91bfb9b3730, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

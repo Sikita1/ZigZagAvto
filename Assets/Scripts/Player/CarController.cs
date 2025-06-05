@@ -59,7 +59,5 @@ public class CarController : MonoBehaviour
     {
         for (int i = 0; i < _particleSystems.Length; i++)
             _particleSystems[i].Play();
-
-        Debug.Log("Смог");
     }
 }
